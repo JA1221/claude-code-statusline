@@ -23,6 +23,7 @@
 | `install-statusline.md` | **給 Claude Code 讀的安裝指引**（自動判斷平台、找檔、備份設定後安裝） |
 | `statusline.py` | Python 版 → **Linux / macOS / WSL**（只需 Python 3.7+，不用裝其他套件） |
 | `statusline.ps1` | PowerShell 版 → **原生 Windows**（Windows PowerShell 5.1 與 PowerShell 7+ 皆可，不用裝任何東西） |
+| `LICENSE` | MIT 授權條款 |
 
 兩個版本顯示內容與行為完全一致，依平台擇一安裝即可。
 
@@ -66,6 +67,9 @@
 - **不鎖檔**：讀 transcript 時允許 Claude Code 同時寫入。
   舊版 PowerShell 版讀檔會擋住寫入，可能出現
   `Transcript writes are failing (EBUSY) · recent messages may not be saved for resume`，本版已修正。
+
+## 授權
+[MIT License](LICENSE)：可自由使用、修改、再發佈（包含商業用途），只需保留版權與授權聲明。
 
 ## 更新紀錄
 - **2026-11**
